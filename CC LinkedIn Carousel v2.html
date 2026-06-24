@@ -608,10 +608,10 @@
     </div>
   </div>
   <!-- Main content row -->
-  <div style="padding:217px 64px 0; display:flex; gap:36px; align-items:flex-start; position:relative; z-index:2;">
+  <div style="position:absolute; inset:0; z-index:2;">
 
-    <!-- Left column -->
-    <div style="flex:0 0 420px;">
+    <!-- Left column: vertically centered in the area above the footer -->
+    <div style="position:absolute; left:64px; top:0; height:1186px; width:420px; display:flex; flex-direction:column; justify-content:center;">
 
       <h1 style="font-family:'Playfair Display',serif; font-style:italic; font-size:78px; font-weight:500; line-height:1.07; color:#0C1B2E; margin:0; letter-spacing:-1.5px;">
         Make clearer<br>decisions.<br><span style="color:#1E9B9B;">Ship better<br>products.</span>
@@ -671,7 +671,7 @@
     </div>
 
     <!-- Right column: Browser mockup -->
-    <div style="flex:0 0 900px; margin-top:70px;">
+    <div style="position:absolute; left:520px; top:287px; width:900px;">
       <div style="background:#EAEAE9; border-radius:14px; box-shadow:0 28px 80px rgba(0,0,0,0.18), 0 4px 14px rgba(0,0,0,0.07); overflow:hidden;">
         <div style="background:#DDDCDB; padding:13px 18px; display:flex; align-items:center; gap:12px;">
           <div style="display:flex; gap:7px;">
