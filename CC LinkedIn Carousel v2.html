@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; }
+  * { box-sizing: border-box; }
+</style>
+</helmet>
+
+<div style="background:#11121C; min-height:100vh; padding:64px 48px; display:flex; flex-direction:column; align-items:center; gap:72px;">
+
+<!-- ═══════════════════════════════════
+     SLIDE 1 / 5
+════════════════════════════════════ -->
+<div style="width:1080px; height:1350px; background:#F5F2EB; border-radius:8px; box-shadow:0 40px 120px rgba(0,0,0,0.5); position:relative; overflow:hidden; flex-shrink:0;">
+
+  <!-- Decorative large teal circle (behind mockup) -->
+  <div style="position:absolute; right:-210px; top:62px; width:800px; height:900px; background:#C2E4E4; border-radius:50%; opacity:0.7; pointer-events:none;"></div>
+  <!-- Dot grid -->
+  <div style="position:absolute; left:500px; bottom:270px; width:136px; height:136px; background-image:radial-gradient(circle, rgba(30,155,155,0.38) 2px, transparent 2px); background-size:18px 18px; pointer-events:none;"></div>
+
+  <!-- Slide number -->
+  <div style="position:absolute; left:64px; bottom:54px; font-family:'Roboto Condensed'; font-size:24px; font-weight:500; color:#4D5E70; z-index:3;"><span style="color:#1E9B9B;">1</span> / 5</div>
+
+  <!-- ── Content Row ── -->
+  <div style="padding:74px 64px 0; display:flex; gap:36px; align-items:flex-start; justify-content:flex-start; position:relative; z-index:2;">
+
+    <!-- Left Column -->
+    <div style="flex:0 0 600px; padding-top:279px; margin-left:10px;">
+      <h1 style="font-family:'Playfair Display',serif; font-style:italic; font-size:84px; font-weight:500; line-height:1.06; color:#0C1B2E; margin:0; letter-spacing:-1.5px;">
+        Good UI<br>decisions<br>start with<br><span style="color:#1E9B9B;">clear language.</span>
+      </h1>
+
+      <div style="width:56px; height:4px; background:#1E9B9B; margin:34px 0 52px;"></div>
+
+      <div style="width:500px; height:111px; overflow:hidden; margin:0 0 8px -18px;">
+        <img src="component-compass-logo-lockup.png" style="width:500px; height:auto; display:block;" alt="Component Compass">
+      </div>
+      <p style="font-family:'Roboto Condensed'; font-size:28px; font-weight:400; line-height:1.45; color:#4D5E70; text-transform:uppercase; letter-spacing:1.4px; margin:0;">A practical UI decision guide<br>built for product builders.</p>
+    </div>
+
+    <!-- Right Column: iPhone Mockup -->
+    <div style="position:absolute; right:-45px; top:160px; z-index:2;">
+      <div style="position:relative; background:linear-gradient(145deg,#222326,#0B0B0D); border-radius:70px; padding:16px; box-shadow:0 45px 120px rgba(0,0,0,0.35), 0 0 0 1.5px #3A3A3A, 0 0 0 5px #0A0A0A; width:430px;">
+        <!-- Side buttons (left: silent + volume) -->
+        <div style="position:absolute; left:-5px; top:132px; width:5px; height:40px; background:#2C2C2E; border-radius:3px 0 0 3px;"></div>
+        <div style="position:absolute; left:-5px; top:190px; width:5px; height:70px; background:#2C2C2E; border-radius:3px 0 0 3px;"></div>
+        <div style="position:absolute; left:-5px; top:274px; width:5px; height:70px; background:#2C2C2E; border-radius:3px 0 0 3px;"></div>
+        <!-- Side button right: power -->
+        <div style="position:absolute; right:-5px; top:184px; width:5px; height:92px; background:#2C2C2E; border-radius:0 3px 3px 0;"></div>
+        <!-- Screen -->
+        <div style="border-radius:54px; overflow:hidden; position:relative; background:#F7FBFC; padding-top:50px; box-shadow:inset 0 0 0 1px rgba(255,255,255,0.08);">
+          <img src="uploads/CC%20Homepage%20Mobile.png" style="width:100%; display:block;" alt="Component Compass mobile homepage">
+          <!-- iPhone status bar and notch -->
+          <div style="position:absolute; top:0; left:0; right:0; height:50px; background:linear-gradient(to bottom, rgba(255,255,255,0.96), rgba(255,255,255,0.82)); z-index:4; pointer-events:none;">
+            <div style="position:absolute; top:12px; left:28px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:15px; font-weight:700; color:#111827; letter-spacing:0;">9:41</div>
+            <div style="position:absolute; top:9px; left:50%; transform:translateX(-50%); width:112px; height:32px; background:#0A0A0B; border-radius:20px; box-shadow:inset 0 0 0 1px rgba(255,255,255,0.08);"></div>
+            <div style="position:absolute; top:16px; right:28px; display:flex; align-items:center; gap:5px; color:#111827;">
+              <svg width="14" height="10" viewBox="0 0 14 10" fill="none">
+                <rect x="1" y="6" width="2" height="3" rx="0.6" fill="#111827"/>
+                <rect x="5" y="4" width="2" height="5" rx="0.6" fill="#111827"/>
+                <rect x="9" y="2" width="2" height="7" rx="0.6" fill="#111827"/>
+              </svg>
+              <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                <path d="M1 3.8C4.3 1.2 8.7 1.2 12 3.8" stroke="#111827" stroke-width="1.4" stroke-linecap="round"/>
+                <path d="M3.5 6.1C5.2 4.8 7.8 4.8 9.5 6.1" stroke="#111827" stroke-width="1.4" stroke-linecap="round"/>
+                <circle cx="6.5" cy="8.2" r="1" fill="#111827"/>
+              </svg>
+              <svg width="22" height="11" viewBox="0 0 22 11" fill="none">
+                <rect x="0.7" y="1.2" width="18" height="8.6" rx="2.2" stroke="#111827" stroke-width="1.3"/>
+                <rect x="2.8" y="3.2" width="13.5" height="4.6" rx="1.2" fill="#111827"/>
+                <path d="M20 4.1V6.9" stroke="#111827" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════
+     SLIDE 2 / 5
+════════════════════════════════════ -->
+<div style="width:1080px; height:1350px; background:#F5F2EB; border-radius:8px; box-shadow:0 40px 120px rgba(0,0,0,0.5); position:relative; overflow:hidden; flex-shrink:0;">
+
+  <!-- Decorative teal shape bottom-left -->
+  <div style="position:absolute; left:-80px; bottom:-80px; width:320px; height:320px; background:#C2E4E4; border-radius:50%; opacity:0.55; pointer-events:none;"></div>
+  <!-- Dot grid bottom-right -->
+  <div style="position:absolute; right:64px; bottom:180px; width:140px; height:140px; background-image:radial-gradient(circle, rgba(30,155,155,0.32) 2px, transparent 2px); background-size:18px 18px; pointer-events:none;"></div>
+  <!-- Slide number -->
+  <div style="position:absolute; left:64px; bottom:54px; font-family:'Roboto Condensed'; font-size:24px; font-weight:500; color:#4D5E70; z-index:3;"><span style="color:#1E9B9B;">2</span> / 5</div>
+  <!-- Content -->
+  <div style="padding:130px 64px 0; position:relative; z-index:2;">
+
+
+    <h1 style="font-family:'Playfair Display',serif; font-style:italic; font-size:84px; font-weight:500; line-height:1.06; color:#0C1B2E; margin:0; letter-spacing:-2px;">
+      Most UI debates<br>are not really<br><span style="color:#1E9B9B;">UI debates.</span>
+    </h1>
+
+    <div style="width:44px; height:3px; background:#1E9B9B; margin:30px 0 24px;"></div>
+
+    <p style="font-family:'Roboto Condensed'; font-size:28px; color:#4D5E70; line-height:1.55; margin:0 0 8px;">One person says "popup."<br>Another says "modal."<br>Someone else means "drawer."</p>
+    <p style="font-family:'Roboto Condensed'; font-size:28px; color:#4D5E70; line-height:1.55; margin:0 0 40px;">Everyone thinks they are aligned,<br>but they are discussing different things.</p>
+
+    <!-- Three component cards -->
+    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin-bottom:40px;">
+
+      <!-- Popup card -->
+      <div style="background:white; border-radius:14px; padding:0 0 20px; border:1px solid #EAE8E0; overflow:hidden;">
+        <div style="background:#F0F2F5; height:160px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 180 140" width="160" height="125" fill="none">
+            <rect width="180" height="140" rx="8" fill="#E8EBF0"/>
+            <!-- browser bg -->
+            <rect x="6" y="6" width="168" height="128" rx="6" fill="#F0F2F6"/>
+            <!-- popup dialog small -->
+            <rect x="38" y="30" width="104" height="80" rx="7" fill="white" stroke="#DDE0E5" stroke-width="1.2"/>
+            <!-- X button -->
+            <line x1="124" y1="40" x2="130" y2="46" stroke="#AAA" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="130" y1="40" x2="124" y2="46" stroke="#AAA" stroke-width="1.5" stroke-linecap="round"/>
+            <!-- content lines -->
+            <rect x="52" y="50" width="76" height="5" rx="2.5" fill="#E0E0E0"/>
+            <rect x="52" y="60" width="58" height="4" rx="2" fill="#EAEAEA"/>
+            <rect x="52" y="69" width="64" height="4" rx="2" fill="#EAEAEA"/>
+            <!-- button -->
+            <rect x="60" y="82" width="60" height="16" rx="8" fill="#1E9B9B"/>
+          </svg>
+        </div>
+        <div style="padding:16px 20px 0;">
+          <div style="font-family:'Roboto Condensed'; font-size:24px; font-weight:700; color:#0C1B2E; margin-bottom:6px;">Popup</div>
+          <div style="font-family:'Roboto Condensed'; font-size:22px; color:#555; line-height:1.45; margin-bottom:14px;">Small, lightweight,<br>usually non-blocking.</div>
+          <div style="background:#F5F7FA; border-radius:8px; padding:12px 14px; display:flex; align-items:center; gap:10px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13,2 3,14 12,14 11,22 21,10 12,10"/>
+            </svg>
+            <span style="font-family:'Roboto Condensed'; font-size:19px; color:#4D5E70; line-height:1.35;">Quick message.<br>Doesn't interrupt.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal card -->
+      <div style="background:white; border-radius:14px; padding:0 0 20px; border:1px solid #EAE8E0; overflow:hidden;">
+        <div style="background:#E8ECEF; height:160px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 180 140" width="160" height="125" fill="none">
+            <rect width="180" height="140" rx="8" fill="#D8DCE2"/>
+            <!-- dimmed overlay -->
+            <rect x="6" y="6" width="168" height="128" rx="6" fill="#C8CDD5" fill-opacity="0.8"/>
+            <!-- modal dialog centered -->
+            <rect x="20" y="18" width="140" height="104" rx="7" fill="white" stroke="#D0D4DC" stroke-width="1.2"/>
+            <rect x="36" y="33" width="80" height="5" rx="2.5" fill="#E0E0E0"/>
+            <rect x="36" y="43" width="64" height="4" rx="2" fill="#EAEAEA"/>
+            <rect x="36" y="52" width="72" height="4" rx="2" fill="#EAEAEA"/>
+            <rect x="36" y="60" width="56" height="4" rx="2" fill="#EAEAEA"/>
+            <rect x="50" y="98" width="80" height="16" rx="8" fill="#1E9B9B"/>
+          </svg>
+        </div>
+        <div style="padding:16px 20px 0;">
+          <div style="font-family:'Roboto Condensed'; font-size:24px; font-weight:700; color:#0C1B2E; margin-bottom:6px;">Modal</div>
+          <div style="font-family:'Roboto Condensed'; font-size:22px; color:#555; line-height:1.45; margin-bottom:14px;">Displays content in<br>a layer above.</div>
+          <div style="background:#F5F7FA; border-radius:8px; padding:12px 14px; display:flex; align-items:center; gap:10px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/>
+            </svg>
+            <span style="font-family:'Roboto Condensed'; font-size:19px; color:#4D5E70; line-height:1.35;">Requires focus.<br>Blocks background.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drawer card -->
+      <div style="background:white; border-radius:14px; padding:0 0 20px; border:1px solid #EAE8E0; overflow:hidden;">
+        <div style="background:#EAF2F2; height:160px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 180 140" width="160" height="125" fill="none">
+            <rect width="180" height="140" rx="8" fill="#E0ECEC"/>
+            <rect x="6" y="6" width="168" height="128" rx="6" fill="#EFF4F4"/>
+            <!-- page content -->
+            <rect x="12" y="20" width="96" height="5" rx="2.5" fill="#D0DCDC"/>
+            <rect x="12" y="30" width="78" height="4" rx="2" fill="#D8E4E4"/>
+            <rect x="12" y="40" width="88" height="4" rx="2" fill="#D8E4E4"/>
+            <rect x="12" y="52" width="70" height="4" rx="2" fill="#D8E4E4"/>
+            <rect x="12" y="62" width="80" height="4" rx="2" fill="#D8E4E4"/>
+            <!-- drawer panel -->
+            <rect x="110" y="6" width="64" height="128" rx="0 6 6 0" fill="white" stroke="#D0D8D8"/>
+            <rect x="110" y="6" width="5" height="128" fill="#1E9B9B"/>
+            <rect x="120" y="22" width="46" height="5" rx="2.5" fill="#E0E0E0"/>
+            <rect x="120" y="33" width="36" height="4" rx="2" fill="#EAEAEA"/>
+            <rect x="120" y="43" width="42" height="4" rx="2" fill="#EAEAEA"/>
+            <rect x="120" y="55" width="30" height="4" rx="2" fill="#EAEAEA"/>
+          </svg>
+        </div>
+        <div style="padding:16px 20px 0;">
+          <div style="font-family:'Roboto Condensed'; font-size:24px; font-weight:700; color:#0C1B2E; margin-bottom:6px;">Drawer</div>
+          <div style="font-family:'Roboto Condensed'; font-size:22px; color:#555; line-height:1.45; margin-bottom:14px;">Slides in from the edge,<br>keeps context visible.</div>
+          <div style="background:#F5F7FA; border-radius:8px; padding:12px 14px; display:flex; align-items:center; gap:10px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+            </svg>
+            <span style="font-family:'Roboto Condensed'; font-size:19px; color:#4D5E70; line-height:1.35;">Supports exploration.<br>Keeps user in flow.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quote callout -->
+    <div style="display:flex; align-items:center; gap:22px;">
+      <div style="width:56px; height:56px; border-radius:50%; background:#1E9B9B; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+        <svg width="22" height="18" viewBox="0 0 22 18" fill="none">
+          <path d="M0 18V10.8C0 4.68 3.36 1.26 10.08.06L11.16 1.86C8.28 2.58 6.18 3.9 4.86 5.82 3.6 7.68 3 9.72 3 12H7.2V18H0ZM12.84 18V10.8C12.84 4.68 16.2 1.26 22.92.06L24 1.86C21.12 2.58 19.02 3.9 17.7 5.82 16.44 7.68 15.84 9.72 15.84 12H20.04V18H12.84Z" fill="white" fill-opacity="0.9" transform="scale(0.85) translate(1 1)"/>
+        </svg>
+      </div>
+      <p style="font-family:'Roboto Condensed'; font-size:28px; color:#0C1B2E; line-height:1.5; margin:0;">
+        Different words. Different mental models.<br>
+        <span style="color:#1E9B9B; font-weight:500;">That's why clarity matters.</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════
+     SLIDE 3 / 5
+════════════════════════════════════ -->
+<div style="width:1080px; height:1350px; background:#F5F2EB; border-radius:8px; box-shadow:0 40px 120px rgba(0,0,0,0.5); position:relative; overflow:hidden; flex-shrink:0;">
+
+  <!-- Decorative circle top-right -->
+  <div style="position:absolute; right:-60px; top:120px; width:420px; height:420px; background:#C2E4E4; border-radius:50%; opacity:0.55; pointer-events:none;"></div>
+  <!-- Dot grid bottom-left -->
+  <div style="position:absolute; left:64px; bottom:80px; width:120px; height:120px; background-image:radial-gradient(circle, rgba(30,155,155,0.32) 2px, transparent 2px); background-size:18px 18px; pointer-events:none;"></div>
+  <!-- Slide number -->
+  <div style="position:absolute; left:64px; bottom:54px; font-family:'Roboto Condensed'; font-size:24px; font-weight:500; color:#4D5E70; z-index:3;"><span style="color:#1E9B9B;">3</span> / 5</div>
+  <!-- Content Row -->
+  <div style="height:100%; position:relative; z-index:2;">
+
+    <!-- Left-peeking product browser screenshot -->
+    <div style="position:absolute; right:-455px; top:50%; transform:translateY(-50%); width:1000px; height:844px; background:#EAEAE9; border-radius:18px; box-shadow:0 34px 90px rgba(0,0,0,0.2), 0 8px 24px rgba(0,0,0,0.08); overflow:hidden;">
+      <div style="height:54px; background:#DDDCDB; padding:0 18px; display:flex; align-items:center; gap:12px;">
+        <div style="display:flex; gap:8px;">
+          <div style="width:13px; height:13px; border-radius:50%; background:#FF5F57;"></div>
+          <div style="width:13px; height:13px; border-radius:50%; background:#FEBC2E;"></div>
+          <div style="width:13px; height:13px; border-radius:50%; background:#28C840;"></div>
+        </div>
+        <div style="flex:1; background:white; border-radius:8px; padding:7px 14px; display:flex; align-items:center; gap:8px; font-family:'Roboto Condensed'; font-size:15px; color:#8A94A6;">
+          <svg width="11" height="13" viewBox="0 0 9 11" fill="none"><rect x="1" y="4" width="7" height="6.5" rx="1.5" stroke="#B8C0CC" stroke-width="1.2"/><path d="M2.5 4V2.8a2 2 0 014 0V4" stroke="#B8C0CC" stroke-width="1.2" fill="none"/></svg>
+          componentcompass.design/components
+        </div>
+      </div>
+      <img src="uploads/components-3x3.png" alt="Component Compass components library" style="display:block; width:100%; height:790px; object-fit:cover; object-position:top center;">
+    </div>
+
+    <!-- Left Column -->
+    <div style="position:absolute; left:64px; top:50%; transform:translateY(-50%); width:430px;">
+
+      <h1 style="font-family:'Playfair Display',serif; font-style:italic; font-size:88px; font-weight:500; line-height:1.06; color:#0C1B2E; margin:0; letter-spacing:-2px;">
+        Terminology<br><span style="color:#1E9B9B;">matters.</span>
+      </h1>
+
+      <div style="width:44px; height:3px; background:#1E9B9B; margin:28px 0 24px;"></div>
+
+      <p style="font-family:'Roboto Condensed'; font-size:28px; color:#4D5E70; line-height:1.55; margin:0 0 6px;">A component is not just<br>a shape on the screen.</p>
+      <p style="font-family:'Roboto Condensed'; font-size:28px; color:#0C1B2E; font-weight:600; line-height:1.55; margin:0 0 32px;">It carries a decision.</p>
+
+      <!-- Bullet list -->
+      <div style="display:flex; flex-direction:column; gap:20px; margin-bottom:32px;">
+        <!-- 1 -->
+        <div style="display:flex; gap:16px; align-items:flex-start;">
+          <div style="width:56px; height:56px; border-radius:50%; background:rgba(30,155,155,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.9" stroke-linecap="round">
+              <circle cx="12" cy="12" r="9"/><line x1="10" y1="8" x2="10" y2="16"/><line x1="14" y1="8" x2="14" y2="16"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Roboto Condensed'; font-size:24px; font-weight:600; color:#0C1B2E; margin-bottom:3px;">It interrupts (or doesn't)</div>
+            <div style="font-family:'Roboto Condensed'; font-size:22px; color:#4D5E70; line-height:1.4;">Some components demand<br>focus. Others don't.</div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div style="display:flex; gap:16px; align-items:flex-start;">
+          <div style="width:56px; height:56px; border-radius:50%; background:rgba(30,155,155,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 4v16"/><path d="M12 9h5"/><path d="M12 13h4"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Roboto Condensed'; font-size:24px; font-weight:600; color:#0C1B2E; margin-bottom:3px;">It preserves (or changes) context</div>
+            <div style="font-family:'Roboto Condensed'; font-size:22px; color:#4D5E70; line-height:1.4;">Context shapes how easily users<br>can return to where they were.</div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div style="display:flex; gap:16px; align-items:flex-start;">
+          <div style="width:56px; height:56px; border-radius:50%; background:rgba(30,155,155,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v3"/><path d="M12 16v3"/><path d="M5 12h3"/><path d="M16 12h3"/><circle cx="12" cy="12" r="4"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Roboto Condensed'; font-size:24px; font-weight:600; color:#0C1B2E; margin-bottom:3px;">It guides attention</div>
+            <div style="font-family:'Roboto Condensed'; font-size:22px; color:#4D5E70; line-height:1.4;">Different components pull focus<br>in different ways.</div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div style="display:flex; gap:16px; align-items:flex-start;">
+          <div style="width:56px; height:56px; border-radius:50%; background:rgba(30,155,155,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3v4"/><path d="M5 7h14"/><path d="M8 7l-4 8h8l-4-8z"/><path d="M16 7l-4 8h8l-4-8z"/><path d="M6 20h12"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Roboto Condensed'; font-size:24px; font-weight:600; color:#0C1B2E; margin-bottom:3px;">It compares information</div>
+            <div style="font-family:'Roboto Condensed'; font-size:22px; color:#4D5E70; line-height:1.4;">Some components are for quick<br>scans, others for deep comparison.</div>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div style="display:flex; gap:16px; align-items:flex-start;">
+          <div style="width:56px; height:56px; border-radius:50%; background:rgba(30,155,155,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h12"/><path d="M13 8l4 4-4 4"/><path d="M5 6h6"/><path d="M5 18h6"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Roboto Condensed'; font-size:24px; font-weight:600; color:#0C1B2E; margin-bottom:3px;">It creates a next step</div>
+            <div style="font-family:'Roboto Condensed'; font-size:22px; color:#4D5E70; line-height:1.4;">Every component influences<br>what the user does next.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Callout box -->
+      <div style="background:#EDF6F6; border-radius:12px; padding:18px 20px; display:flex; align-items:center; gap:16px;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="9" y1="18" x2="15" y2="18"/><line x1="10" y1="22" x2="14" y2="22"/>
+          <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0018 8 6 6 0 006 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 018.91 14"/>
+        </svg>
+        <p style="font-family:'Roboto Condensed'; font-size:22px; color:#0C1B2E; margin:0; line-height:1.4;">Choosing the component<br>means <span style="color:#1E9B9B; font-weight:600;">choosing the behavior.</span></p>
+      </div>
+    </div>
+
+    <!-- Right Column: Browser mockup (Components Library) -->
+    <div style="display:none; flex:1; margin-top:10px;">
+      <div style="background:#EAEAE9; border-radius:14px; box-shadow:0 28px 80px rgba(0,0,0,0.18), 0 4px 14px rgba(0,0,0,0.07); overflow:hidden;">
+        <!-- Title bar -->
+        <div style="background:#DDDCDB; padding:13px 18px; display:flex; align-items:center; gap:12px;">
+          <div style="display:flex; gap:7px;">
+            <div style="width:12px; height:12px; border-radius:50%; background:#FF5F57;"></div>
+            <div style="width:12px; height:12px; border-radius:50%; background:#FEBC2E;"></div>
+            <div style="width:12px; height:12px; border-radius:50%; background:#28C840;"></div>
+          </div>
+          <div style="flex:1; background:white; border-radius:6px; padding:5px 12px; display:flex; align-items:center; gap:6px; font-family:'Roboto Condensed'; font-size:13px; color:#999;">
+            <svg width="9" height="11" viewBox="0 0 9 11" fill="none"><rect x="1" y="4" width="7" height="6.5" rx="1.5" stroke="#BBB" stroke-width="1.2"/><path d="M2.5 4V2.8a2 2 0 014 0V4" stroke="#BBB" stroke-width="1.2" fill="none"/></svg>
+            componentcompass.design
+          </div>
+        </div>
+        <!-- Nav -->
+        <div style="background:white; padding:14px 18px; display:flex; align-items:center; gap:10px; border-bottom:1px solid #F0F0F0;">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <rect width="20" height="20" rx="4" fill="#1E9B9B"/>
+            <line x1="4" y1="10" x2="16" y2="10" stroke="white" stroke-width="1.5"/>
+            <line x1="10" y1="4" x2="10" y2="16" stroke="white" stroke-width="1.5"/>
+            <circle cx="10" cy="10" r="3.5" stroke="white" stroke-width="1.2" fill="none"/>
+            <circle cx="10" cy="10" r="1.2" fill="white"/>
+          </svg>
+          <span style="font-family:'Roboto Condensed'; font-size:17px; font-weight:600; color:#0C1B2E;">Component Compass</span>
+          <div style="margin-left:auto; display:flex; gap:16px;">
+            <span style="font-family:'Roboto Condensed'; font-size:13px; color:#1E9B9B; font-weight:600; border-bottom:2px solid #1E9B9B; padding-bottom:3px;">Components</span>
+            <span style="font-family:'Roboto Condensed'; font-size:13px; color:#888;">Compare</span>
+            <span style="font-family:'Roboto Condensed'; font-size:13px; color:#888;">Patterns</span>
+            <span style="font-family:'Roboto Condensed'; font-size:13px; color:#888;">Glossary</span>
+          </div>
+        </div>
+        <!-- Library content -->
+        <div style="background:white; padding:18px;">
+          <div style="font-family:'Roboto Condensed'; font-size:28px; font-weight:700; color:#0C1B2E; margin-bottom:4px;">Components Library</div>
+          <div style="font-family:'Roboto Condensed'; font-size:13px; color:#777; margin-bottom:14px;">Browse 73 UI components. Click any card to learn more.</div>
+          <!-- Search bar -->
+          <div style="border:1px solid #E0E0E0; border-radius:8px; padding:9px 14px; display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#BBB" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <span style="font-family:'Roboto Condensed'; font-size:13px; color:#BBB;">Search by name, synonym, or category...</span>
+          </div>
+          <div style="font-family:'Roboto Condensed'; font-size:13px; color:#555; margin-bottom:10px;">73 components found</div>
+          <div style="font-family:'Roboto Condensed'; font-size:13px; font-weight:700; color:#0C1B2E; margin-bottom:12px;">Inputs &amp; Forms <span style="font-weight:400; color:#999; font-size:12.5px;">· 18 components</span></div>
+          <!-- Grid -->
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+            <div style="border:1px solid #EFEFEF; border-radius:10px; padding:12px;">
+              <div style="height:50px; display:flex; align-items:center; justify-content:center; margin-bottom:8px; background:#F8F9FA; border-radius:6px;">
+                <svg viewBox="0 0 70 44" width="70" height="44" fill="none">
+                  <rect x="8" y="8" width="54" height="28" rx="4" fill="white" stroke="#E0E0E0"/>
+                  <rect x="14" y="14" width="32" height="4" rx="2" fill="#E0E0E0"/>
+                  <rect x="14" y="22" width="28" height="4" rx="2" fill="#EAEAEA"/>
+                  <rect x="25" y="30" width="20" height="7" rx="3.5" fill="#1E9B9B"/>
+                </svg>
+              </div>
+              <div style="font-family:'Roboto Condensed'; font-size:13px; font-weight:700; color:#0C1B2E; margin-bottom:2px;">Modal</div>
+              <div style="font-family:'Roboto Condensed'; font-size:12px; color:#777; line-height:1.35; margin-bottom:7px;">Focuses attention on a task and requires interaction.</div>
+              <div style="display:flex; gap:5px;"><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#EDF5F5; color:#1E9B9B; border-radius:4px; padding:2px 7px;">Feedback</span><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#F0F0F0; color:#666; border-radius:4px; padding:2px 7px;">Overlay</span></div>
+            </div>
+            <div style="border:1px solid #EFEFEF; border-radius:10px; padding:12px;">
+              <div style="height:50px; display:flex; align-items:center; justify-content:center; margin-bottom:8px; background:#F8F9FA; border-radius:6px;">
+                <svg viewBox="0 0 70 44" width="70" height="44" fill="none">
+                  <rect x="0" y="0" width="70" height="44" rx="4" fill="#EEF2F2"/>
+                  <rect x="46" y="0" width="24" height="44" rx="0 4 4 0" fill="white" stroke="#E0E0E0"/>
+                  <rect x="46" y="0" width="4" height="44" fill="#1E9B9B"/>
+                  <rect x="4" y="10" width="32" height="3.5" rx="1.5" fill="#C8D4D4"/>
+                  <rect x="4" y="18" width="24" height="3" rx="1.5" fill="#D0DCDC"/>
+                  <rect x="4" y="26" width="28" height="3" rx="1.5" fill="#D0DCDC"/>
+                  <rect x="53" y="9" width="14" height="3.5" rx="1.5" fill="#E0E0E0"/>
+                  <rect x="53" y="17" width="12" height="3" rx="1.5" fill="#EAEAEA"/>
+                  <rect x="53" y="25" width="13" height="3" rx="1.5" fill="#EAEAEA"/>
+                </svg>
+              </div>
+              <div style="font-family:'Roboto Condensed'; font-size:13px; font-weight:700; color:#0C1B2E; margin-bottom:2px;">Drawer</div>
+              <div style="font-family:'Roboto Condensed'; font-size:12px; color:#777; line-height:1.35; margin-bottom:7px;">Displays related content while preserving context.</div>
+              <div style="display:flex; gap:5px;"><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#EDF5F5; color:#1E9B9B; border-radius:4px; padding:2px 7px;">Navigation</span><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#F0F0F0; color:#666; border-radius:4px; padding:2px 7px;">Overlay</span></div>
+            </div>
+            <div style="border:1px solid #EFEFEF; border-radius:10px; padding:12px;">
+              <div style="height:50px; display:flex; align-items:center; justify-content:center; margin-bottom:8px; background:#F8F9FA; border-radius:6px;">
+                <svg viewBox="0 0 70 44" width="70" height="44" fill="none">
+                  <rect width="70" height="44" rx="4" fill="#F5F5F5"/>
+                  <rect x="8" y="7" width="54" height="20" rx="4" fill="#2D3748"/>
+                  <path d="M30 27 L35 33 L40 27Z" fill="#2D3748"/>
+                  <rect x="14" y="12" width="36" height="3" rx="1.5" fill="white" fill-opacity="0.75"/>
+                  <rect x="14" y="18" width="26" height="2.5" rx="1.25" fill="white" fill-opacity="0.4"/>
+                  <circle cx="35" cy="39" r="3.5" fill="#E0E0E0"/>
+                </svg>
+              </div>
+              <div style="font-family:'Roboto Condensed'; font-size:13px; font-weight:700; color:#0C1B2E; margin-bottom:2px;">Tooltip</div>
+              <div style="font-family:'Roboto Condensed'; font-size:12px; color:#777; line-height:1.35; margin-bottom:7px;">Provides contextual information on hover or focus.</div>
+              <div style="display:flex; gap:5px;"><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#EDF5F5; color:#1E9B9B; border-radius:4px; padding:2px 7px;">Feedback</span><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#F0F0F0; color:#666; border-radius:4px; padding:2px 7px;">Inline</span></div>
+            </div>
+            <div style="border:1px solid #EFEFEF; border-radius:10px; padding:12px;">
+              <div style="height:50px; display:flex; align-items:center; justify-content:center; margin-bottom:8px; background:#F8F9FA; border-radius:6px;">
+                <svg viewBox="0 0 70 44" width="70" height="44" fill="none">
+                  <rect width="70" height="44" rx="4" fill="#F5F5F5"/>
+                  <rect x="4" y="13" width="62" height="17" rx="4" fill="#1E9B9B"/>
+                  <circle cx="14" cy="21.5" r="4" fill="white" fill-opacity="0.25"/>
+                  <rect x="22" y="17" width="28" height="3" rx="1.5" fill="white" fill-opacity="0.9"/>
+                  <rect x="22" y="23" width="20" height="2.5" rx="1.25" fill="white" fill-opacity="0.5"/>
+                  <line x1="55" y1="15" x2="60" y2="20" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.6"/>
+                  <line x1="60" y1="15" x2="55" y2="20" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.6"/>
+                </svg>
+              </div>
+              <div style="font-family:'Roboto Condensed'; font-size:13px; font-weight:700; color:#0C1B2E; margin-bottom:2px;">Toast</div>
+              <div style="font-family:'Roboto Condensed'; font-size:12px; color:#777; line-height:1.35; margin-bottom:7px;">Shows brief messages without interrupting.</div>
+              <div style="display:flex; gap:5px;"><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#EDF5F5; color:#1E9B9B; border-radius:4px; padding:2px 7px;">Feedback</span><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#F0F0F0; color:#666; border-radius:4px; padding:2px 7px;">Inline</span></div>
+            </div>
+            <div style="border:1px solid #EFEFEF; border-radius:10px; padding:12px;">
+              <div style="height:50px; display:flex; align-items:center; justify-content:center; margin-bottom:8px; background:#F8F9FA; border-radius:6px;">
+                <svg viewBox="0 0 70 44" width="70" height="44" fill="none">
+                  <rect width="70" height="44" rx="4" fill="#F5F5F5"/>
+                  <rect x="14" y="10" width="12" height="12" rx="2" stroke="#1E9B9B" stroke-width="1.5" fill="#EDF5F5"/>
+                  <path d="M16 16 L18.5 18.5 L22 14" stroke="#1E9B9B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <rect x="14" y="26" width="12" height="12" rx="2" stroke="#C0C0C0" stroke-width="1.5" fill="white"/>
+                  <rect x="30" y="12" width="28" height="3" rx="1.5" fill="#E0E0E0"/>
+                  <rect x="30" y="28" width="22" height="3" rx="1.5" fill="#E0E0E0"/>
+                </svg>
+              </div>
+              <div style="font-family:'Roboto Condensed'; font-size:13px; font-weight:700; color:#0C1B2E; margin-bottom:2px;">Checkbox</div>
+              <div style="font-family:'Roboto Condensed'; font-size:12px; color:#777; line-height:1.35; margin-bottom:7px;">Allows users to select one or more options.</div>
+              <div style="display:flex; gap:5px;"><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#EDF5F5; color:#1E9B9B; border-radius:4px; padding:2px 7px;">Selection</span></div>
+            </div>
+            <div style="border:1px solid #EFEFEF; border-radius:10px; padding:12px;">
+              <div style="height:50px; display:flex; align-items:center; justify-content:center; margin-bottom:8px; background:#F8F9FA; border-radius:6px;">
+                <svg viewBox="0 0 70 44" width="70" height="44" fill="none">
+                  <rect width="70" height="44" rx="4" fill="#F5F5F5"/>
+                  <rect x="8" y="6" width="54" height="32" rx="4" fill="white" stroke="#E0E0E0"/>
+                  <!-- calendar header -->
+                  <rect x="8" y="6" width="54" height="10" rx="4 4 0 0" fill="#1E9B9B"/>
+                  <rect x="12" y="9" width="20" height="3" rx="1.5" fill="white" fill-opacity="0.8"/>
+                  <!-- days grid -->
+                  <rect x="12" y="20" width="6" height="5" rx="1" fill="#1E9B9B"/>
+                  <rect x="22" y="20" width="6" height="5" rx="1" fill="#EAEAEA"/>
+                  <rect x="32" y="20" width="6" height="5" rx="1" fill="#EAEAEA"/>
+                  <rect x="42" y="20" width="6" height="5" rx="1" fill="#EAEAEA"/>
+                  <rect x="52" y="20" width="6" height="5" rx="1" fill="#EAEAEA"/>
+                  <rect x="12" y="29" width="6" height="5" rx="1" fill="#EAEAEA"/>
+                  <rect x="22" y="29" width="6" height="5" rx="1" fill="#EAEAEA"/>
+                </svg>
+              </div>
+              <div style="font-family:'Roboto Condensed'; font-size:13px; font-weight:700; color:#0C1B2E; margin-bottom:2px;">Date Picker</div>
+              <div style="font-family:'Roboto Condensed'; font-size:12px; color:#777; line-height:1.35; margin-bottom:7px;">Calendar-based date selector.</div>
+              <div style="display:flex; gap:5px;"><span style="font-family:'Roboto Condensed'; font-size:11.5px; background:#EDF5F5; color:#1E9B9B; border-radius:4px; padding:2px 7px;">Input</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════
+     SLIDE 4 / 5
+════════════════════════════════════ -->
+<div style="width:1080px; height:1350px; background:#F5F2EB; border-radius:8px; box-shadow:0 40px 120px rgba(0,0,0,0.5); position:relative; overflow:hidden; flex-shrink:0;">
+
+  <!-- Decorative circle bottom-left -->
+  <div style="position:absolute; left:-60px; bottom:-60px; width:380px; height:380px; background:#C2E4E4; border-radius:50%; opacity:0.5; pointer-events:none;"></div>
+  <!-- Dot grid top-right -->
+  <div style="position:absolute; right:64px; top:130px; width:140px; height:140px; background-image:radial-gradient(circle, rgba(30,155,155,0.3) 2px, transparent 2px); background-size:18px 18px; pointer-events:none;"></div>
+  <!-- Slide number -->
+  <div style="position:absolute; left:64px; bottom:54px; font-family:'Roboto Condensed'; font-size:24px; font-weight:500; color:#4D5E70; z-index:3;"><span style="color:#1E9B9B;">4</span> / 5</div>
+
+  <!-- Content -->
+  <div style="padding:225px 64px 0; position:relative; z-index:2;">
+    <h1 style="font-family:'Playfair Display',serif; font-style:italic; font-size:84px; font-weight:500; line-height:1.06; color:#0C1B2E; margin:0; letter-spacing:-2px;">
+      Different components<br><span style="color:#1E9B9B;">drive different outcomes.</span>
+    </h1>
+
+    <div style="width:44px; height:3px; background:#1E9B9B; margin:28px 0 20px;"></div>
+
+    <p style="font-family:'Roboto Condensed'; font-size:28px; color:#4D5E70; line-height:1.55; margin:0 0 36px;">A modal and a drawer can both show extra information.<br>But they create very different experiences.</p>
+
+    <!-- Visual comparison -->
+    <div style="background:white; border-radius:16px; padding:26px; border:1px solid #EAE8E0; box-shadow:0 12px 34px rgba(12,27,46,0.06); margin-bottom:28px;">
+      <div style="display:grid; grid-template-columns:1fr 1fr; column-gap:30px; position:relative;">
+        <div style="position:absolute; left:50%; top:0; bottom:0; width:1px; background:#DDE7E7; transform:translateX(-50%);"></div>
+        <div style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:54px; height:54px; border-radius:50%; background:#1E9B9B; display:flex; align-items:center; justify-content:center; font-family:'Roboto Condensed'; font-size:18px; font-weight:700; color:white; letter-spacing:0.5px; z-index:2;">VS</div>
+
+        <!-- Modal side -->
+        <div style="padding-right:18px;">
+          <div style="font-family:'Roboto Condensed'; font-size:28px; font-weight:700; color:#1E9B9B; margin-bottom:16px;">Modal</div>
+          <div style="height:260px; border-radius:14px; background:#F1F7F7; position:relative; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+            <div style="position:absolute; inset:30px; border-radius:12px; background:#DDE7EA;"></div>
+            <div style="position:absolute; left:96px; right:96px; top:64px; height:132px; border-radius:14px; background:white; box-shadow:0 18px 48px rgba(12,27,46,0.18); border:1px solid #E2E6EA;">
+              <div style="position:absolute; left:20px; top:20px; width:52px; height:6px; border-radius:4px; background:#E7EBEF;"></div>
+              <div style="position:absolute; right:18px; top:16px; font-family:'Roboto Condensed'; font-size:22px; color:#A6B0BA;">x</div>
+              <div style="position:absolute; left:20px; right:20px; top:50px; height:44px; border-radius:8px; background:#F4F6F8;"></div>
+              <div style="position:absolute; left:50%; transform:translateX(-50%); bottom:20px; width:70px; height:20px; border-radius:6px; background:#1E9B9B;"></div>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:10px; margin-top:18px;">
+            <div style="display:flex; align-items:center; gap:9px;"><svg width="18" height="18" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" fill="rgba(30,155,155,0.12)"/><path d="M5 8l2 2 4-4" stroke="#1E9B9B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span style="font-family:'Roboto Condensed'; font-size:22px; color:#2D3748;">Focuses user attention</span></div>
+            <div style="display:flex; align-items:center; gap:9px;"><svg width="18" height="18" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" fill="rgba(30,155,155,0.12)"/><path d="M5 8l2 2 4-4" stroke="#1E9B9B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span style="font-family:'Roboto Condensed'; font-size:22px; color:#2D3748;">Blocks out background</span></div>
+            <div style="display:flex; align-items:center; gap:9px;"><svg width="18" height="18" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" fill="rgba(30,155,155,0.12)"/><path d="M5 8l2 2 4-4" stroke="#1E9B9B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span style="font-family:'Roboto Condensed'; font-size:22px; color:#2D3748;">Best for critical tasks</span></div>
+            <p style="font-family:'Roboto Condensed'; font-size:20px; color:#4D5E70; line-height:1.35; margin:8px 0 0;"><span style="color:#1E9B9B; font-weight:700;">Use when:</span> Task needs absolute focus and a clear decision.</p>
+          </div>
+        </div>
+
+        <!-- Drawer side -->
+        <div style="padding-left:18px;">
+          <div style="font-family:'Roboto Condensed'; font-size:28px; font-weight:700; color:#1E9B9B; margin-bottom:16px;">Drawer</div>
+          <div style="height:260px; border-radius:14px; background:#F1F7F7; position:relative; overflow:hidden;">
+            <div style="position:absolute; inset:30px; border-radius:12px; background:#DDE7EA;"></div>
+            <div style="position:absolute; left:64px; top:52px; width:278px; height:156px; border-radius:12px; background:white; box-shadow:0 14px 38px rgba(12,27,46,0.1); border:1px solid #E2E6EA;">
+              <div style="position:absolute; left:22px; top:24px; width:94px; height:7px; border-radius:4px; background:#E3E8ED;"></div>
+              <div style="position:absolute; left:22px; top:50px; width:150px; height:6px; border-radius:4px; background:#E9EEF2;"></div>
+              <div style="position:absolute; left:22px; top:72px; width:128px; height:6px; border-radius:4px; background:#E9EEF2;"></div>
+            </div>
+            <div style="position:absolute; right:64px; top:52px; width:118px; height:156px; border-radius:14px; background:white; box-shadow:0 18px 48px rgba(12,27,46,0.18); border:1px solid #E2E6EA; overflow:hidden;">
+              <div style="position:absolute; left:0; top:0; bottom:0; width:8px; background:#1E9B9B;"></div>
+              <div style="position:absolute; left:22px; top:24px; width:62px; height:7px; border-radius:4px; background:#E3E8ED;"></div>
+              <div style="position:absolute; left:22px; top:54px; width:70px; height:8px; border-radius:5px; background:#EEF2F5;"></div>
+              <div style="position:absolute; left:22px; top:80px; width:70px; height:8px; border-radius:5px; background:#EEF2F5;"></div>
+              <div style="position:absolute; left:22px; top:106px; width:70px; height:8px; border-radius:5px; background:#EEF2F5;"></div>
+              <div style="position:absolute; left:22px; top:132px; width:52px; height:8px; border-radius:5px; background:#EEF2F5;"></div>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:10px; margin-top:18px;">
+            <div style="display:flex; align-items:center; gap:9px;"><svg width="18" height="18" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" fill="rgba(30,155,155,0.12)"/><path d="M5 8l2 2 4-4" stroke="#1E9B9B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span style="font-family:'Roboto Condensed'; font-size:22px; color:#2D3748;">Preserves user context</span></div>
+            <div style="display:flex; align-items:center; gap:9px;"><svg width="18" height="18" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" fill="rgba(30,155,155,0.12)"/><path d="M5 8l2 2 4-4" stroke="#1E9B9B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span style="font-family:'Roboto Condensed'; font-size:22px; color:#2D3748;">Reduces overall intrusion</span></div>
+            <div style="display:flex; align-items:center; gap:9px;"><svg width="18" height="18" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" fill="rgba(30,155,155,0.12)"/><path d="M5 8l2 2 4-4" stroke="#1E9B9B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span style="font-family:'Roboto Condensed'; font-size:22px; color:#2D3748;">Best for secondary tasks</span></div>
+            <p style="font-family:'Roboto Condensed'; font-size:20px; color:#4D5E70; line-height:1.35; margin:8px 0 0;"><span style="color:#1E9B9B; font-weight:700;">Use when:</span> Task supports quick actions or exploration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     SLIDE 5 / 5
+════════════════════════════════════ -->
+<div style="width:1080px; height:1350px; background:#F5F2EB; border-radius:8px; box-shadow:0 40px 120px rgba(0,0,0,0.5); position:relative; overflow:hidden; flex-shrink:0;">
+
+  <!-- Decorative circle right -->
+  <div style="position:absolute; right:-280px; top:40px; width:900px; height:900px; background:#C2E4E4; border-radius:50%; opacity:0.55; pointer-events:none;"></div>
+  <!-- Footer attribution and URL -->
+  <div style="position:absolute; left:64px; right:64px; bottom:54px; display:flex; align-items:center; justify-content:space-between; gap:28px; z-index:4;">
+    <div style="display:flex; align-items:center; gap:22px;">
+      <div style="width:118px; height:118px; border-radius:50%; padding:5px; background:white; border:3px solid #1E9B9B; box-shadow:0 12px 30px rgba(12,27,46,0.14);">
+        <img src="uploads/moiz-alam-pycon.jpg" alt="Moiz Alam" style="width:100%; height:100%; border-radius:50%; object-fit:cover; object-position:center;">
+      </div>
+      <div>
+        <div style="font-family:'Roboto Condensed'; font-size:28px; line-height:1.15; font-weight:700; color:#0C1B2E;">Moiz Alam</div>
+        <div style="font-family:'Roboto Condensed'; font-size:28px; line-height:1.18; font-weight:400; color:#0C1B2E;">Senior Product Manager</div>
+      </div>
+    </div>
+    <div style="display:inline-flex; align-items:center; gap:14px; padding:18px 24px; border-radius:999px; background:#1E9B9B; border:1px solid #1E9B9B;">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 010 20"/>
+        <path d="M12 2a15.3 15.3 0 000 20"/>
+      </svg>
+      <span style="font-family:'Roboto Condensed'; font-size:30px; font-weight:500; color:white;">componentcompass.design</span>
+    </div>
+  </div>
+  <!-- Main content row -->
+  <div style="padding:217px 64px 0; display:flex; gap:36px; align-items:flex-start; position:relative; z-index:2;">
+
+    <!-- Left column -->
+    <div style="flex:0 0 420px;">
+
+      <h1 style="font-family:'Playfair Display',serif; font-style:italic; font-size:78px; font-weight:500; line-height:1.07; color:#0C1B2E; margin:0; letter-spacing:-1.5px;">
+        Make clearer<br>decisions.<br><span style="color:#1E9B9B;">Ship better<br>products.</span>
+      </h1>
+
+      <div style="width:44px; height:3px; background:#1E9B9B; margin:30px 0 24px;"></div>
+
+      <p style="font-family:'Roboto Condensed'; font-size:28px; color:#4D5E70; line-height:1.55; margin:0 0 36px;">Component Compass helps you<br>choose the right UI component<br>for every situation.</p>
+
+      <!-- Feature list -->
+      <div style="display:flex; flex-direction:column; gap:22px;">
+        <div style="display:flex; gap:16px; align-items:center;">
+          <div style="width:46px; height:46px; border-radius:50%; background:rgba(30,155,155,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 5h20M2 12h20M2 19h20"/><path d="M6 5l-4 7 4 7M18 5l4 7-4 7" stroke-opacity="0.5"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Roboto Condensed'; font-size:22px; font-weight:700; color:#0C1B2E;">73 Components</div>
+            <div style="font-family:'Roboto Condensed'; font-size:18px; color:#4D5E70;">Well-documented, across categories.</div>
+          </div>
+        </div>
+        <div style="display:flex; gap:16px; align-items:center;">
+          <div style="width:46px; height:46px; border-radius:50%; background:rgba(30,155,155,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.8" stroke-linecap="round">
+              <circle cx="9" cy="12" r="7"/><circle cx="15" cy="12" r="7"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Roboto Condensed'; font-size:22px; font-weight:700; color:#0C1B2E;">32 Comparisons</div>
+            <div style="font-family:'Roboto Condensed'; font-size:18px; color:#4D5E70;">Side-by-side comparisons that highlight trade-offs.</div>
+          </div>
+        </div>
+        <div style="display:flex; gap:16px; align-items:center;">
+          <div style="width:46px; height:46px; border-radius:50%; background:rgba(30,155,155,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="9" height="9" rx="1"/><rect x="13" y="2" width="9" height="9" rx="1"/><rect x="2" y="13" width="9" height="9" rx="1"/><rect x="13" y="13" width="9" height="9" rx="1"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Roboto Condensed'; font-size:22px; font-weight:700; color:#0C1B2E;">32 Patterns</div>
+            <div style="font-family:'Roboto Condensed'; font-size:18px; color:#4D5E70;">How components combine into real product flows.</div>
+          </div>
+        </div>
+        <div style="display:flex; gap:16px; align-items:center;">
+          <div style="width:46px; height:46px; border-radius:50%; background:rgba(30,155,155,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E9B9B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Roboto Condensed'; font-size:22px; font-weight:700; color:#0C1B2E;">45 Glossary Terms</div>
+            <div style="font-family:'Roboto Condensed'; font-size:18px; color:#4D5E70;">Shared language so the whole team stays aligned.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right column: Browser mockup -->
+    <div style="flex:0 0 900px; margin-top:70px;">
+      <div style="background:#EAEAE9; border-radius:14px; box-shadow:0 28px 80px rgba(0,0,0,0.18), 0 4px 14px rgba(0,0,0,0.07); overflow:hidden;">
+        <div style="background:#DDDCDB; padding:13px 18px; display:flex; align-items:center; gap:12px;">
+          <div style="display:flex; gap:7px;">
+            <div style="width:12px; height:12px; border-radius:50%; background:#FF5F57;"></div>
+            <div style="width:12px; height:12px; border-radius:50%; background:#FEBC2E;"></div>
+            <div style="width:12px; height:12px; border-radius:50%; background:#28C840;"></div>
+          </div>
+          <div style="flex:1; background:white; border-radius:6px; padding:5px 12px; display:flex; align-items:center; gap:6px; font-family:'Roboto Condensed'; font-size:13px; color:#999;">
+            <svg width="9" height="11" viewBox="0 0 9 11" fill="none"><rect x="1" y="4" width="7" height="6.5" rx="1.5" stroke="#BBB" stroke-width="1.2"/><path d="M2.5 4V2.8a2 2 0 014 0V4" stroke="#BBB" stroke-width="1.2" fill="none"/></svg>
+            componentcompass.design
+          </div>
+        </div>
+        <div style="height:610px; background:white; overflow:hidden;">
+          <img src="uploads/component-compass-categories.png" alt="Component Compass category page" style="display:block; width:100%; height:100%; object-fit:cover; object-position:top center;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</x-dc>
+</body>
+</html>
